@@ -1,4 +1,3 @@
-# requires dep: pip install psutil
 import psutil
 print("CPU usage (%):", psutil.cpu_percent(interval=0.5))
 ram = psutil.virtual_memory()
